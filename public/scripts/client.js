@@ -6,7 +6,7 @@ $(document).ready(readyNow);
 function readyNow(){
     $.ajax({
         method: 'GET',
-        url: 'modules/module3',
+        url: '/module3',
         success: function(response) {
             console.log("from client", response);
 
